@@ -1,0 +1,39 @@
+/* styles/Layout.css */
+.form-container{
+margin-top: 5rem;
+
+}
+.form-content {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.form-title{
+  font-size:  2.75rem !important;
+  color: rgb(79 70 229 / 12);
+
+}
+.skills-section,
+.languages-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Styles for Skills section */
+.skills-section {
+  order: 2; /* Change the order to 2 for Skills section */
+}
+
+/* Styles for Languages section */
+.languages-section {
+  order: 1; /* Change the order to 1 for Languages section */
+}
+
+.chips-container {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* Add your other custom styles here */
